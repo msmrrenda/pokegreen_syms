@@ -1,6 +1,20 @@
+00:01a3 FarMemCopy
+00:01bb MemCopy
+00:186a ChooseQuantity
+00:1b55 IsHiddenMachine
+00:3121 FarCall_IsKeyItem
+00:3620 FarCall
+00:3827 GetItemPrice
+00:3e9d CallFunction
+01:421c ItemPriceList
 03:5642 ItemJumpTable
+03:6a6f IsKeyItemImpl
+03:6aa4 KeyItemFlagList
+03:799c OperateBitfield
+00:cee4 GenericBufferCEE4
 01:d039 EncountId
 01:d03a TrainerVariation
+01:d0e9 ItemSellSelected
 01:d123 PartyCount
 01:d124 Party1ExternalId
 01:d125 Party2ExternalId
@@ -1157,3 +1171,5 @@
 01:df06 Box28NickName
 01:df0c Box29NickName
 01:df12 Box30NickName
+00:ff8b BCDTemp1
+00:ff9f BCDTemp2

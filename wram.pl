@@ -28,8 +28,11 @@ my @box_pokemon_structure = (
 );
 
 our @wram = (
+	{ "origin" => 0xCEE4, "bank" => "00", "name" => "GenericBufferCEE4" },
+
 	{ "origin" => 0xd039, "bank" => "01", "name" => "EncountId" },
 	{ "origin" => 0xd03a, "bank" => "01", "name" => "TrainerVariation" },
+	{ "origin" => 0xd0e9, "bank" => "01", "name" => "ItemSellSelected" },
 	{ "origin" => 0xd123, "bank" => "01" },
 	{ "name" => "PartyCount" },
 	{ "loop" => 7, "prefix" => "Party%d", "data" => [
