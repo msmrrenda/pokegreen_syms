@@ -29,6 +29,7 @@ my $data = [
 	{ "origin" => 0x6A6F, "bank" => "03", "name" => "IsKeyItemImpl" },
 	{ "origin" => 0x6AA4, "bank" => "03", "name" => "KeyItemFlagList" },
 	{ "origin" => 0x799C, "bank" => "03", "name" => "OperateBitfield" },
+	{ "origin" => 0x7DBD, "bank" => "04", "name" => "CheckWildEncount" },
 	@wram,
 	@hram,
 ];

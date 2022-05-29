@@ -111,8 +111,15 @@ our @wram = (
 	{ "name" => "TeleportDestination" },
 	{ "name" => "FlyDestination" },
 
-	{ "origin" => 0xd808, "bank" => "01" },
-	{ "loop" => 20, "prefix" => "EncountTable%02d", "data" => [
+	{ "origin" => 0xd806, "bank" => "01" },
+	{ "name" => "GroundEncountRate" },
+	{ "loop" => 10, "prefix" => "GroundEncountTable%02d", "data" => [
+		{ "name" => "PokemonId" },
+		{ "name" => "Level" },
+	]},
+	{ "origin" => 0xd823, "bank" => "01" },
+	{ "name" => "WaterEncountRate" },
+	{ "loop" => 10, "prefix" => "WaterEncountTable%02d", "data" => [
 		{ "name" => "PokemonId" },
 		{ "name" => "Level" },
 	]},
